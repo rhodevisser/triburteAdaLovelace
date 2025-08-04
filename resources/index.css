@@ -21,7 +21,7 @@ button {
 }
 
 header, footer, .box_1 {
-    background-color: #1f2937;
+    background-color: #352332;
 }
 
 figcaption {
@@ -38,9 +38,13 @@ header {
 }
 
 .logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
+    font-size: 50px;
+    color:  #E9E4EF;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+    
 }
 
 .nav ul{
