@@ -1,6 +1,6 @@
 Project Description
 
-This project is a landing page built with HTML and CSS, as an assignment by The Odin Project curriculum. The page features a modern layout with a header, a main section and footer. The design uses semantic HTML, flexbox for layout, and custom styling. The goal is to practice structuring web content and applying consistent, maintainable CSS for real-world landing pages.
+This project started as a landing page I built earlier with HTML and CSS as part of The Odin Project curriculum. I now use this page as a base layout for a tribute page about Ada Lovelace. The structure is built with semantic HTML, styled with flexbox and custom CSS. The goal is to practice structuring and designing web content while also using design to tell a story.
 
 Skills Demonstrated
 
