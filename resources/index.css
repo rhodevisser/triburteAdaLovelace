@@ -30,7 +30,7 @@ header {
     justify-content: space-around
 
 }
-
+ /*logo styling*/
 .logo {
     font-size: 50px;
     color:  #E9E4EF;
@@ -39,6 +39,7 @@ header {
     font-style: italic; 
 }
 
+/*nav styling*/
 .nav ul{
     display: flex;
     gap: 10px;;
