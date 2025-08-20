@@ -33,7 +33,7 @@ header {
  /*logo styling*/
 .logo {
     font-size: 50px;
-    color:  #E9E4EF;
+    color: #fd006e;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: italic; 
@@ -52,7 +52,7 @@ header {
 
 .nav ul li a {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #faebd7;
     text-decoration: none;
 }
 
@@ -74,13 +74,13 @@ header {
 .box_1 h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #faebd7;
     margin: 0;
 }
 
 .box_1 p {
     margin: 10px;
-    color: #f9faf8;
+    color: #faebd7;
 }
 
 .box_1 .item_1 {
@@ -158,7 +158,7 @@ figcaption {
 /*box_3 css*/
 
 .box_3 {
-    background-color: #e5e7eb;
+    background-color:#faebd7;
     display: flex;
     justify-content: center;
 
@@ -200,19 +200,19 @@ figcaption {
     width: 1000px;
     padding: 20px;
     margin: 70px;
-    color: #f9faf8;
+    color: #faebd7;
 }
 
 .box_4 .item_7 button {
-    color:#f9faf8;
-    border: oldlace solid 2px;
+    color:#faebd7;
+    border: #faebd7 solid 2px;
     border-radius: 5px;
     align-self: center;
 }
 
 /*footer CSS*/
 footer {
-    color: #E5E7EB;
+    color: #faebd7;
     text-align: center;
     padding: 18px;
 }
