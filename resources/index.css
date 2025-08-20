@@ -119,8 +119,8 @@ header {
     gap: 50px;
 }
 
-.box_2 .item_4 .illustration {
-    display: flex;
+.illustration {
+    flex: 1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
