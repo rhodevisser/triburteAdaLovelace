@@ -24,12 +24,6 @@ header, footer, .box_1 {
     background-color: #352332;
 }
 
-figcaption {
-    font-size: 14px;
-    color: #1f2937;
-    text-align: center;
-}
-
 /*header CSS*/
 header {
     display: flex;
@@ -42,9 +36,7 @@ header {
     color:  #E9E4EF;
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-style: italic;
-
-    
+    font-style: italic; 
 }
 
 .nav ul{
@@ -113,13 +105,13 @@ header {
     margin-bottom: 100px;
 }
 
-.box_2 .item_3 {
+.item_3 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
 }
 
-.box_2 .item_4 {
+.item_4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,8 +127,20 @@ header {
     max-width: 200px;
 }
 
-.box_2 .item_4 figure {
+figure {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
 
+figcaption {
+    font-size: 10px;
+    color: #1f2937;
+    text-align: center;
+    padding: 10px;
+}
+
+.illustration img {
     width: 200px;
     height: 200px;
     border: #3882f6 solid 5px;
