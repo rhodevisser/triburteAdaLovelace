@@ -59,7 +59,7 @@ header {
 /*box_1 CSS*/
 .box_1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
     padding: 50px 150px
@@ -69,7 +69,6 @@ header {
 .box_1 .item_1, 
 .box_1 .item_2 {
     flex: 1;
-    text-align: left;
 }
 
 .box_1 h1 {
@@ -87,11 +86,18 @@ header {
 .box_1 .item_1 {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .box_1 .item_2 {
-    background-color: grey;
-    height: 200px;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    align-self: center;
 }
 
 .box_1 button {
