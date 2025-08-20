@@ -6,9 +6,11 @@ body {
 
 button {
     padding: 10px 20px;
-    border: none;
+    border: #faebd7 solid 2px;
     border-radius: 5px;
-    cursor: pointer;
+    background-color: #865ff1;
+    color: #faebd7;
+
 }
 
 main {
@@ -17,9 +19,6 @@ main {
     justify-content: center;
 }
 
-button {
-   background-color: #865ff1; ; 
-}
 
 header, footer, .box_1 {
     background-color: #352332;
