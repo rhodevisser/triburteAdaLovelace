@@ -46,12 +46,12 @@ header {
 
 .nav ul{
     display: flex;
-    gap: 10px;;
+    align-content: center;
+    gap: 20px;  
     
 }
 .nav ul li {
     list-style: none;
-
 }
 
 .nav ul li a {
@@ -66,8 +66,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
-    padding: 50px 150px
-    
+    padding: 50px 150px 
 }
 
 .box_1 .item_1, 
@@ -160,13 +159,10 @@ figcaption {
 }
 
 /*box_3 css*/
-
 .box_3 {
     background-color:#faebd7;
     display: flex;
-    justify-content: center;
-
-    
+    justify-content: center;  
 }
 
 .box_3 .quote_name {
@@ -191,7 +187,6 @@ figcaption {
 }
 
 /*box_4 CSS*/
-
 .box_4 {
     display: flex;
     justify-content: center;
