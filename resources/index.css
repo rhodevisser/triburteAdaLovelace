@@ -143,9 +143,9 @@ figcaption {
 .illustration img {
     width: 200px;
     height: 200px;
-    border: #3882f6 solid 5px;
+    display: block;
+    border: #865ff1 solid 5px;
     border-radius: 5%;
-    margin: 10px;
 }
 
 /*box_3 css*/
