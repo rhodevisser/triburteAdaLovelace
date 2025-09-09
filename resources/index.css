@@ -58,6 +58,14 @@ header {
     font-size: 18px;
     color: #fd006e;
     text-decoration: none;
+    transition: transform 0.2s;
+
+.nav ul li a:hover {
+    transform: scale(1.3);
+}
+
+.nav ul li a:active {
+    font-weight: 900;
 }
 
 /*box_1 CSS*/
