@@ -127,13 +127,11 @@ img {
 }
 
 .box_2 h2 {
-    color: #140a13;
-}
-.item_3 {
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 25px;
     color: #1f2937;
-}
+    margin-top: 40px;
+    margin-bottom: 20px;
+}    
 
 .item_4 {
     display: flex;
@@ -192,7 +190,7 @@ figcaption {
 }
 
 .box_3 h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: lighter;
     color: #140a13;
@@ -221,8 +219,8 @@ figcaption {
 }
 
 .box_4 .item_7 button {
-    color:#faebd7;
-    border: #faebd7 solid 2px;
+    color:#140a13;
+    border: #fd006e solid 2px;
     border-radius: 5px;
     align-self: center;
 }
