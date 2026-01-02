@@ -26,7 +26,9 @@ header, footer, .box_1 {
 /*header CSS*/
 .header-logo-navigation {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    border-bottom: 1px #faebd7 solid;
+    color: #fd006e;
 
 }
  /*logo styling*/
@@ -35,6 +37,7 @@ header, footer, .box_1 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: italic;
+    text-shadow: 1px 0px 2px #faebd7;
 }
 
 /*nav styling*/
@@ -47,6 +50,7 @@ header, footer, .box_1 {
     gap: 20px;  
     
 }
+
 .header-nav ul li {
     list-style: none;
 }
@@ -57,6 +61,7 @@ header, footer, .box_1 {
     transition: transform 0.2s;
     min-width: 100px;
     min-height: 30px;
+    text-transform: uppercase;
 }
 
 .header-nav ul li a:active {
