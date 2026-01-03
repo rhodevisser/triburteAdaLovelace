@@ -3,6 +3,20 @@ body {
     background-color:#faebd7;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header, footer, .introduction-container {
+    background-color: #140a13;
+}
+
+.paragraph-styling {
+    font-size: 18px;
+}
+
 button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -21,22 +35,11 @@ button:hover {
     
 }
 
-button:focus {
+button:active {
     box-shadow: 0 0 7px white;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-
-header, footer, .introduction-container {
-    background-color: #140a13;
-}
-
-/*header CSS*/
 .header-logo-navigation {
     display: flex;
     justify-content: space-around;
@@ -44,7 +47,7 @@ header, footer, .introduction-container {
     color: #fd006e;
 
 }
- /*logo styling*/
+
 .header-logo {
     font-size: 50px;
     font-family: "Lato", sans-serif;
@@ -72,8 +75,6 @@ header, footer, .introduction-container {
     font-size: 18px;
     color: #fd006e;
     transition: transform 0.2s;
-    min-width: 100px;
-    min-height: 30px;
     text-transform: uppercase;
 }
 
@@ -86,8 +87,8 @@ header, footer, .introduction-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
     padding: 0px 100px 50px;
+    color: #faebd7;
 }
 
 .text-introduction-container, 
@@ -98,13 +99,7 @@ header, footer, .introduction-container {
 .text-introduction-title {
     font-size: 48px;
     font-weight: 900;
-    color: #faebd7;
     margin: 0;
-}
-
-.text-introduction-paragraph {
-    color: #faebd7;
-    font-size: 18px;
 }
 
 .text-introduction-container {
