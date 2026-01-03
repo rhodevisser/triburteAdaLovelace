@@ -19,7 +19,7 @@ main {
 }
 
 
-header, footer, .box_1 {
+header, footer, .introduction-container {
     background-color: #140a13;
 }
 
@@ -69,7 +69,7 @@ header, footer, .box_1 {
 }
 
 /*box_1 CSS*/
-.box_1 {
+.introduction-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,43 +77,45 @@ header, footer, .box_1 {
     padding: 0px 100px 50px;
 }
 
-.box_1 .item_1, 
-.box_1 .item_2 {
+.text-introduction-container, 
+.image-introduction-container {
     flex: 1;
 }
 
-.box_1 h1 {
+.text-introduction-title {
     font-size: 48px;
     font-weight: 900;
     color: #faebd7;
     margin: 0;
 }
 
-.box_1 p {
+.text-introduction-paragraph {
     color: #faebd7;
     font-size: 18px;
 }
 
-.box_1 .item_1 {
+.text-introduction-container {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-.box_1 .item_2 {
+.image-introduction-container {
     text-align: center;
 }
 
-img {
+.image-introduction {
     height: 400px;
     width: auto;
     border-radius: 5px;
     align-self: center;
 }
 
-.box_1 button {
+.readmore-button-text-introduction-paragraph {
     align-self: flex-start;
 }
+
+
 
 /*box_2 CSS*/
 .box_2 {
