@@ -4,12 +4,25 @@ body {
 }
 
 button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 20dpx;
     padding: 10px 20px;
-    border: #fd006e solid 2px;
+    font-weight: 500;
     border-radius: 5px;
     background-color: #865ff1;
-    color: #140a13;
+    color: #faebd7;
+    border: 2px solid #434344;
+}
 
+button:hover {
+    border: 2px solid #fd006e;
+    cursor: pointer;
+    
+}
+
+button:focus {
+    box-shadow: 0 0 7px white;
 }
 
 main {
