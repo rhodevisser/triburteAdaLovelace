@@ -82,7 +82,8 @@ button:active {
     font-weight: 900;
 }
 
-/*box_1 CSS*/
+
+
 .introduction-container {
     display: flex;
     justify-content: space-between;
@@ -126,7 +127,6 @@ button:active {
 
 
 
-/*box_2 CSS*/
 .child-to-pioneer-container {
     display: flex;
     flex-direction: column;
@@ -143,17 +143,11 @@ button:active {
 
 .child-to-pioneer-illustration-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 50px;
 }
 
 .child-to-pioneer-figure-container {
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     max-width: 200px;
 }
 
@@ -173,7 +167,6 @@ button:active {
 .image-child-to-pioneer {
     width: 200px;
     height: 200px;
-    display: block;
     border: #865ff1 solid 5px;
     border-radius: 5%;
 }
