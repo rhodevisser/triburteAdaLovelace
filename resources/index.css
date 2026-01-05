@@ -43,7 +43,7 @@ button:active {
 .header-logo-navigation {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px #faebd7 solid;
+    border-bottom: 1px #865ff1 solid;
     color: #fd006e;
 
 }
