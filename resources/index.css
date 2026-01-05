@@ -134,7 +134,7 @@ button:active {
     margin-bottom: 100px;
 }
 
-.child-to-pioneer-container .child-to-pioneer-title {
+.child-to-pioneer-title {
     font-size: 25px;
     color: #1f2937;
     margin-top: 40px;
@@ -170,7 +170,7 @@ button:active {
     padding: 10px;
 }
 
-.child-to-pioneer-figure-container .image-child-to-pioneer {
+.image-child-to-pioneer {
     width: 200px;
     height: 200px;
     display: block;
