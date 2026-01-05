@@ -127,21 +127,21 @@ button:active {
 
 
 /*box_2 CSS*/
-.box_2 {
+.child-to-pioneer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.box_2 h2 {
+.child-to-pioneer-container .child-to-pioneer-title {
     font-size: 25px;
     color: #1f2937;
     margin-top: 40px;
     margin-bottom: 20px;
 }    
 
-.item_4 {
+.child-to-pioneer-illustration-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ button:active {
     gap: 50px;
 }
 
-.illustration {
+.child-to-pioneer-figure-container {
     flex: 1;
     justify-content: center;
     align-items: center;
@@ -157,20 +157,20 @@ button:active {
     max-width: 200px;
 }
 
-figure {
+.figure-child-to-pioneer {
     width: 200px;
     height: 200px;
     margin: 10px;
 }
 
-figcaption {
+.figcaption-child-to-pioneer {
     font-size: 10px;
     color: #1f2937;
     text-align: center;
     padding: 10px;
 }
 
-.illustration img {
+.child-to-pioneer-figure-container .image-child-to-pioneer {
     width: 200px;
     height: 200px;
     display: block;
