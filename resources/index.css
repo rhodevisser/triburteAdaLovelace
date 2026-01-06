@@ -173,36 +173,31 @@ button:active {
     border-radius: 5%;
 }
 
-/*box_3 css*/
-.box_3 {
+
+.quote-container {
     background-color:#fd006e;
     display: flex;
     justify-content: center;  
 }
 
-.box_3 .quote_name {
+.quote-container .quote-name-box {
     display: flex;
-    align-items: center;
     flex-direction: column;
     margin: 50px 0;
     max-width: 900px;
 }
 
-.box_3 p {
-    font-size: 18px;
-}
-
-.box_3 h2 {
+.quote-container .quote-text {
     font-size: 30px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: bold;
     color: #140a13;
     max-width: 900px;
 }
 
-.box_3 .item_6 {
+.quote-container .name-box {
     align-self: flex-end;
-    margin-right: 10%;
+    margin-left: auto;
 }
 
 /*box_4 CSS*/
