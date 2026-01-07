@@ -200,13 +200,13 @@ button:active {
     margin-left: auto;
 }
 
-/*box_4 CSS*/
-.box_4 {
+
+.newsletter-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box_4 .item_7 {
+.newsletter-box {
     display: flex;
     justify-content: space-around;
     background-color: #865ff1;
@@ -216,7 +216,8 @@ button:active {
     color: #faebd7;
 }
 
-.box_4 .item_7 button {
+.title-text-newsletter, 
+.paragraph-text-newsletter {
     align-self: center;
 }
 
