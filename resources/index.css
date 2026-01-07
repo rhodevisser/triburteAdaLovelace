@@ -211,13 +211,17 @@ button:active {
     justify-content: space-around;
     background-color: #865ff1;
     width: 1000px;
-    padding: 20px;
+    padding: 30px;
     margin: 70px;
     color: #faebd7;
 }
 
 .title-text-newsletter, 
 .paragraph-text-newsletter {
+    padding-right: 15px;
+}
+
+.get-newsletter {
     align-self: center;
 }
 
