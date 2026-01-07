@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:#faebd7;
+    background-color:whitesmoke;
 }
 
 main {
@@ -24,8 +24,8 @@ button {
     padding: 10px 20px;
     font-weight: 500;
     border-radius: 5px;
-    background-color: #865ff1;
-    color: #faebd7;
+    background-color: hsl(256, 84%, 66%);
+    color: whitesmoke;
     border: 2px solid #b4b4f9;
 }
 
@@ -43,8 +43,9 @@ button:active {
 .header-logo-navigation {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px #865ff1 solid;
-    color: #fd006e;
+    border-bottom: 2px #865ff1 solid;
+    color: #FF66A8;
+    padding-bottom: 30px;
 
 }
 
@@ -53,10 +54,9 @@ button:active {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: italic;
-    text-shadow: 1px 0px 2px #faebd7;
 }
 
-/*nav styling*/
+
 .header-nav {
     align-content: center;
 }
@@ -73,9 +73,17 @@ button:active {
 
 .header-nav ul li a {
     font-size: 18px;
-    color: #fd006e;
+    color: #FF66A8;
+    padding: 2px 5px;
     transition: transform 0.2s;
     text-transform: uppercase;
+    border: 1px solid #FF66A8;
+    text-decoration: none;
+}
+
+.header-nav ul li a:hover {
+    text-decoration: underline;
+    
 }
 
 .header-nav ul li a:active {
@@ -88,8 +96,8 @@ button:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px 50px;
-    color: #faebd7;
+    padding: 50px 100px;
+    color: whitesmoke;
 }
 
 .text-introduction-container, 
@@ -175,7 +183,7 @@ button:active {
 
 
 .quote-container {
-    background-color:#fd006e;
+    background-color:#FF66A8;
     display: flex;
     justify-content: center;  
 }
@@ -190,7 +198,6 @@ button:active {
 .quote-container .quote-text {
     font-size: 30px;
     font-style: italic;
-    font-weight: bold;
     color: #140a13;
     max-width: 900px;
 }
@@ -213,7 +220,7 @@ button:active {
     width: 1000px;
     padding: 30px;
     margin: 70px;
-    color: #faebd7;
+    color: whitesmoke;
 }
 
 .title-text-newsletter, 
@@ -227,7 +234,7 @@ button:active {
 
 /*footer CSS*/
 footer {
-    color: #fd006e;
+    color: #FF66A8;
     text-align: center;
     padding: 18px;
 }
