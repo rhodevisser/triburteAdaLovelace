@@ -9,8 +9,16 @@ main {
     justify-content: center;
 }
 
-header, footer, .introduction-container {
+nav, header, footer, .introduction-container {
     background-color: #140a13;
+}
+
+.header-text {
+    padding-top: 2rem;
+    font-size: 1rem;
+    padding-left: 6.25rem;
+    color: rgba(255, 255, 255, 0.615);
+    margin: 0;
 }
 
 .paragraph-styling {
