@@ -1,4 +1,4 @@
- <header class="header-logo-navigation">
+ <nav class="header-logo-navigation">
         <div class="header-logo">
             <p>
                 Techdames
@@ -28,4 +28,4 @@
                 </li>
             </ul>
         </div>
-    </header>
+</nav>
