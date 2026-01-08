@@ -10,37 +10,8 @@
 </head>
 
 <body>
-    <header class="header-logo-navigation">
-        <div class="header-logo">
-            <p>
-                Techdames
-            </p>
-        </div>
-        <div class="header-nav">
-            <ul>
-                <li>
-                    <a href="#">
-                    Home
-                    </a>
-                </li>
-                <li >
-                    <a href="#">
-                    Biografie
-                    </a>
-                </li>
-                <li >
-                    <a href="#">
-                    Erkenning
-                    </a>
-                </li>    
-                <li >
-                    <a href="#">
-                    Bronnen 
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
+    
+<?php require('partials/header-nav.php') ?>
 
     <main>
         <div class="introduction-container">
