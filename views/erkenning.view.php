@@ -11,7 +11,7 @@
                 Erkenning 
             </h2>
             <p class="paragraph-styling">
-                abracadabra
+                 She has been called the first computer programmer. The second Tuesday of October is traditionally celebrated as Ada Lovelace Day, during which women’s contributions to science, technology, engineering, and mathematics are honored.
             </p>
             <button class="readmore-button-text-introduction-paragraph">
                 Vind hier bronnen om meer te leren over Ada Lovelave of the imacpat van vrouwn in tech
