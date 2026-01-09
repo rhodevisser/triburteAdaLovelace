@@ -1,7 +1,7 @@
  <nav class="header-logo-navigation">
         <div class="header-logo">
             <p>
-                Techdames
+                OG.irls
             </p>
         </div>
         <div class="header-nav">
