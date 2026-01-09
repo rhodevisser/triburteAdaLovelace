@@ -17,7 +17,7 @@ nav, header, footer, .introduction-container {
     padding-top: 2rem;
     font-size: 1rem;
     padding-left: 6.25rem;
-    color: rgba(255, 255, 255, 0.615);
+    color: rgb(229 166 210 / 62%);
     margin: 0;
 }
 
@@ -52,7 +52,7 @@ button:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-bottom: 0.125rem #865ff1 solid;
+    border-bottom: 0.125rem #865ff1bf solid;
     color: #FF66A8;
     padding-bottom: 1.875rem;
 
@@ -155,7 +155,7 @@ button:active {
 
 .child-to-pioneer-title {
     font-size: 1.563rem;
-    color: #1f2937;
+    color: white;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
 }    
@@ -166,6 +166,7 @@ button:active {
     gap: 3.125rem;
     margin-left: auto;
     margin-right: auto;
+    background-color: #140a13;
 }
 
 .child-to-pioneer-figure-container {
@@ -180,7 +181,7 @@ button:active {
 
 .figcaption-child-to-pioneer {
     font-size: 0.75rem;
-    color: #1f2937;
+    color: white;
     text-align: center;
 }
 
@@ -244,7 +245,10 @@ button:active {
 
 /*footer CSS*/
 footer {
-    color: #FF66A8;
     text-align: center;
+    font-size: 1rem;
     padding: 1.125rem;
+    color: #FF66A8;
+    border-top: 0.125rem #865ff1ad solid ;
 }
+

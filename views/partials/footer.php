@@ -1,5 +1,5 @@
     <footer class="Copyright-footer">
-        <p class="paragraph-styling">
+        <p>
             Copyright &#xA9; Rhodé Visser 2025
         </p>
     </footer>
