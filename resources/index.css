@@ -23,7 +23,8 @@ nav, header, footer, .introduction-container {
 
 .paragraph-styling {
     font-size: 1.125rem;
-}
+    
+} 
 
 button {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -128,6 +129,13 @@ button:active {
     text-align: left;
 }
 
+.text-biografie-container {
+    text-align: left;
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .image-introduction-container {
     text-align: center;
 }
@@ -138,6 +146,10 @@ button:active {
     width: auto;
     border-radius: 5%;
     align-self: center;
+}
+
+.image-biografie {
+    margin: 1.875rem 0 3rem 0;
 }
 
 .readmore-button-text-introduction-paragraph {

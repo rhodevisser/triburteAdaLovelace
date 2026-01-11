@@ -6,7 +6,7 @@
 
 <main>
     <div class="introduction-container">
-        <div class="text-introduction-container">
+        <div class="text-biografie-container">
             <p class="paragraph-styling">
                 Ada Lovelace werd geboren op 10 december 1815 in Piccadilly Terrace, Middlesex (nu: Londen) en overleed op 27 november 1852 in Marylebone, London.
                 Ada was een Engelse wiskundige die samenwerkte met <a href="https://www.britannica.com/biography/Charles-Babbage">Charles Babbage</a>, voor zijn prototype digitale computer schreef zij een programma. Ze is benoemd
@@ -32,7 +32,7 @@ Ada Lovelace overleed op slechts 36-jarige leeftijd aan kanker. Lange tijd bleef
         
     </div>
     <div class="image-introduction-container">
-            <img class="image-introduction" src="http://blogs.bodleian.ox.ac.uk/adalovelace/wp-content/uploads/sites/163/2018/07/800px-AnalyticalMachine_Babbage_London.jpg" alt="this is a placeholder image">
+            <img class="image-introduction image-biografie" src="http://blogs.bodleian.ox.ac.uk/adalovelace/wp-content/uploads/sites/163/2018/07/800px-AnalyticalMachine_Babbage_London.jpg" alt="this is a placeholder image">
         </div>
 </main>
 
