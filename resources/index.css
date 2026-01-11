@@ -140,12 +140,16 @@ button:active {
     text-align: center;
 }
 
-.image-introduction {
-    margin-top: 1.875rem;
+.image-general-styling {
     height: 25rem;
     width: auto;
     border-radius: 5%;
     align-self: center;
+
+}
+.image-introduction {
+    margin-top: 1.875rem;
+   
 }
 
 .image-biografie {

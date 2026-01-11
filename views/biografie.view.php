@@ -32,7 +32,7 @@ Ada Lovelace overleed op slechts 36-jarige leeftijd aan kanker. Lange tijd bleef
         
     </div>
     <div class="image-introduction-container">
-            <img class="image-introduction image-biografie" src="http://blogs.bodleian.ox.ac.uk/adalovelace/wp-content/uploads/sites/163/2018/07/800px-AnalyticalMachine_Babbage_London.jpg" alt="this is a placeholder image">
+            <img class="image-general-styling image-biografie" src="http://blogs.bodleian.ox.ac.uk/adalovelace/wp-content/uploads/sites/163/2018/07/800px-AnalyticalMachine_Babbage_London.jpg" alt="this is a placeholder image">
         </div>
 </main>
 

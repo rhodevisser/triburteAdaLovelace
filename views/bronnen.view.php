@@ -18,7 +18,7 @@
             </button>
         </div>
         <div class="image-introduction-container">
-            <img class="image-introduction" src="resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" alt="this is a placeholder image">
+            <img class="image-general-styling" src="resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" alt="this is a placeholder image">
         </div>
     </div>
 </main>
