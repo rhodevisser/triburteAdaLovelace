@@ -140,6 +140,31 @@ button:active {
     text-align: center;
 }
 
+.biografie-link-styling {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+}
+
+.biografie-link-styling::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: .07em;
+    height: .1em;
+    width: 100%;
+    background: linear-gradient(110deg, #ffffff, #29d0be, #865ff1bf, #FF66A8);
+    z-index: -1;
+    transition: height .25s cubic-bezier(.6,0,.4,1);
+}
+
+.biografie-link-styling:hover::after {
+  height: .2em;
+}
+
+
 .image-general-styling {
     height: 25rem;
     width: auto;
