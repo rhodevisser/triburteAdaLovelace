@@ -12,17 +12,17 @@
                     </a>
                 </li>
                 <li >
-                    <a href="../biografie.php">
+                    <a href="/biografie">
                     Biografie
                     </a>
                 </li>
                 <li >
-                    <a href="../erkenning.php">
+                    <a href="erkenning">
                     Erkenning
                     </a>
                 </li>    
                 <li >
-                    <a href="../bronnen.php">
+                    <a href="bronnen">
                     Bronnen 
                     </a>
                 </li>
