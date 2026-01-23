@@ -24,16 +24,14 @@
                 </a> en 
                 <a class="biografie-link-styling" aria-label="Lees meer over de moeder van Ada Lovelace" title="Lees meer over de moeder van Ada Lovelace" target="_blank" href="https://en.wikipedia.org/wiki/Lady_Byron">
                     Annabella Milbanke
-                </a>, een vrouw met een sterke interesse in wiskunde en logica. Kort na de geboorte van Lovelace gaan haar ouders uit elkaar. 
-                Haar vader verliet Engeland voorgoed, dus ze leerde hem nooit persoonlijk kennen. 
+                </a>, een vrouw met een sterke interesse in wiskunde en logica. Kort na de geboorte van Lovelace gaan haar ouders uit elkaar. Haar vader verliet Engeland voorgoed, dus ze leerde hem nooit persoonlijk kennen. 
                 <br>
                 <br>Haar moeder stimuleerde haar in de exacte wetenschappen, naar horen en zeggen:'Om te voorkomen dat Ada, net als haar vader, 
                 te emotioneel of “dromerig” zou worden.’ Ada bleek al jong talent te hebben voor wiskunde en natuurkunde. 
                 Ze kreeg privéles door verschillende tutors, waaronder 
                 <a class="biografie-link-styling" aria-label="Lees meer over de moeder van Ada Lovelace" target="_blank"  title="Lees meer over Augustus De Morgan" href="https://nl.wikipedia.org/wiki/Augustus_De_Morgan">
                     Augustus De Morgan
-                </a>, de eerste professor wiskunde aan de Universiteit van Londen. Op 8 juli 1835 trouwende ze met William King, de 8ste baron King, 
-                die in 1839 tot graaf werd benoemd, waardoor Ada de gravin van Lovelace werd. 
+                </a>, de eerste professor wiskunde aan de Universiteit van Londen. Op 8 juli 1835 trouwende ze met William King, de 8ste baron King, die in 1839 tot graaf werd benoemd, waardoor Ada de gravin van Lovelace werd. 
                 <br>
                 <br> Lovelace raakte sinds 1833 geinteresseerd in Babbage’s machines nadat zij door 
                 <a class="biografie-link-styling" aria-label="Leer meer over Mary Somerville" target="_blank" title="Leer meer over Mary Somerville" href="https://en.wikipedia.org/wiki/Mary_Somerville">
