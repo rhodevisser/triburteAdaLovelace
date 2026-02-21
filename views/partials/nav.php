@@ -8,7 +8,7 @@
             <ul>
                 <li>
                     <a href="/">
-                    Home
+                    Startpagina
                     </a>
                 </li>
                 <li >
