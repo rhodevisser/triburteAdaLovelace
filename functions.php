@@ -7,3 +7,4 @@ function dumpDie($value) {
 
     die();
 }
+
