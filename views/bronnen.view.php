@@ -11,11 +11,13 @@
                 Leer meer over Ada Lovelace en vrouwen in tech
             </h2>
             <p class="paragraph-styling">
-                abracadabra
+                <?php foreach($resources as $resource) :?>
+                    <li>
+                        <?= $resource['title_id'] ?>
+                    </li>
+
+                <?php endforeach ?>
             </p>
-            <button class="readmore-button-text-introduction-paragraph">
-                Ga teryf naar homepage!
-            </button>
         </div>
         <div class="image-introduction-container">
             <img class="image-general-styling" src="resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" alt="this is a placeholder image">
