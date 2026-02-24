@@ -26,6 +26,11 @@
                     Bronnen 
                     </a>
                 </li>
+                <li>
+                    <a href="hall-of-fame">
+                    Hall of fame
+                    </a>
+                 </li>
             </ul>
         </div>
 </nav>

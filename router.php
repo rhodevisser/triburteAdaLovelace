@@ -8,6 +8,7 @@ $routes =
     '/biografie' => 'controllers/biografie.php',
     '/erkenning' => 'controllers/erkenning.php',
     '/bronnen' => 'controllers/bronnen.php',
+    '/hall-of-fame' => 'controllers/hall-of-fame.php',
 ];
 
 
