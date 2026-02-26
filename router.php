@@ -1,15 +1,10 @@
 <?php 
 
+$routes = require('routes.php');
+
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
-$routes = 
-[
-    '/' => 'controllers/index.php',
-    '/biografie' => 'controllers/biografie.php',
-    '/erkenning' => 'controllers/erkenning.php',
-    '/bronnen' => 'controllers/bronnen.php',
-    '/hall-of-fame' => 'controllers/hall-of-fame.php',
-];
+
 
 
 function routeToController($uri, $routes) {
