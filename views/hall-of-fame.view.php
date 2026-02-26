@@ -4,17 +4,18 @@
 
 <?php require('partials/header.php') ?>
 
+<!-- 1. Open een foreach loop: Gebruik de variabele die je vanuit je controller stuurt (bijv. $innovators).
+
+2. Maak een <div> voor het kaartje: Geef deze een class (bijv. card).
+
+3. Voeg de data toe: Gebruik de PHP tags < ?= $vrouw['naam'] ?> om de naam en de samenvatting in het kaartje te zetten.
+
+4. Maak de link: Zorg dat de <a href="..."> linkt naar je biografie-pagina, en geef het ID mee (zoals we eerder bespraken). -->
+
 <main>
-<div class="py-24 sm:py-32">
+<div class="py-24 sm:py-32 hall-of-fame-container">
     <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
-        <div class="max-w-xl">
-            <h2 class="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
-                Meet our leadership
-            </h2>
-            <p class="mt-6 text-lg/8 text-gray-400">
-                We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
-            </p>
-        </div>
+
         <ul role="list" 
             class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
             <li>
@@ -23,10 +24,10 @@
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
-                        <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                        <h3 class="header-two-styling">
                             Leslie Alexander
                         </h3>
-                        <p class="text-sm/6 font-semibold text-indigo-400">
+                        <p class="paragraph-styling">
                             Co-Founder / CEO
                         </p>
                     </div>
@@ -34,15 +35,15 @@
             </li>
             <li>
                 <div class="flex items-center gap-x-6">
-                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
+                    <img src="resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" 
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
-                        <h3 class="text-base/7 font-semibold tracking-tight text-white">
-                            Michael Foster
+                        <h3 class="header-two-styling">
+                            Ada Lovelace
                         </h3>
-                        <p class="text-sm/6 font-semibold text-indigo-400">
-                            Co-Founder / CTO
+                        <p class="paragraph-styling">
+                            First Computer Programmer
                         </p>
                     </div>
                 </div>
@@ -53,10 +54,10 @@
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
-                        <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                        <h3 class="header-two-styling">
                             Dries Vincent
                         </h3>
-                        <p class="text-sm/6 font-semibold text-indigo-400">
+                        <p class="paragraph-styling">
                             Business Relations
                         </p>
                     </div>
@@ -68,10 +69,10 @@
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
-                        <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                        <h3 class="header-two-styling">
                             Lindsay Walton
                         </h3>
-                        <p class="text-sm/6 font-semibold text-indigo-400">
+                        <p class="paragraph-styling">
                             Front-end Developer
                         </p>
                     </div>
@@ -83,10 +84,10 @@
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
-                        <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                        <h3 class="header-two-styling">
                             Courtney Henry
                         </h3>
-                        <p class="text-sm/6 font-semibold text-indigo-400">
+                        <p class="paragraph-styling">
                             Designer
                         </p>
                     </div>
@@ -98,10 +99,10 @@
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
-                        <h3 class="text-base/7 font-semibold tracking-tight text-white">
+                        <h3 class="header-two-styling">
                             Tom Cook
                         </h3>
-                        <p class="text-sm/6 font-semibold text-indigo-400">
+                        <p class="paragraph-styling">
                             Director of Product
                         </p>
                     </div>
