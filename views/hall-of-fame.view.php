@@ -33,32 +33,36 @@
                     </div>
                 </div>
             </li>
+
             <li>
-                <div class="flex items-center gap-x-6">
-                    <img src="resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" 
-                        alt="" 
-                        class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
-                    <div>
-                        <h3 class="header-two-styling">
-                            Ada Lovelace
-                        </h3>
-                        <p class="paragraph-styling">
-                            First Computer Programmer
-                        </p>
+                <a href="hall-of-fame/biography">
+                    <div class="flex items-center gap-x-6">
+                        <img src="resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" 
+                            alt="" 
+                            class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                        <div>
+                            <h3 class="header-two-styling">
+                                Ada Lovelace
+                            </h3>
+                            <p class="paragraph-styling">
+                                First Computer Programmer
+                            </p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </li>
+
             <li>
                 <div class="flex items-center gap-x-6">
-                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
+                    <img src="/resources/images/paulineVos.jpg" 
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
                         <h3 class="header-two-styling">
-                            Dries Vincent
+                            Pauline Vos
                         </h3>
                         <p class="paragraph-styling">
-                            Business Relations
+                            Software Engineer @ MongoDB and Conference Speaker
                         </p>
                     </div>
                 </div>
@@ -95,15 +99,15 @@
             </li>
             <li>
                 <div class="flex items-center gap-x-6">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
+                    <img src="/resources/images/GraceHopper.jpg" 
                         alt="" 
                         class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
                     <div>
                         <h3 class="header-two-styling">
-                            Tom Cook
+                            Grace Hopper 
                         </h3>
                         <p class="paragraph-styling">
-                            Director of Product
+                           Computer Scientist, Mathematician, and US Navy Rear Admiral
                         </p>
                     </div>
                 </div>
