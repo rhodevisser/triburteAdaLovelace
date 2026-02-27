@@ -11,17 +11,20 @@
                 Ada Lovelace
             </h2>
             <p class="paragraph-styling">
-                De afgelopen tientallen jaren werd technologie en informatica vaak gezien als iets dat vooral bij jongens hoort. 
-                Gelukkig begint dit beeld te veranderen, maar ondanks dit hebben vrouwen altijd een cruciale rol gespeeld. 
-                Ada Lovelace was bijvoorbeeld een pionier op het gebied van informatica en wiskunde. Op deze website kun je 
-                meer lezen over haar impact, maar ook over haar achtergrond en waar ze vandaan komt.
+                De afgelopen tientallen jaren werd technologie en informatica vaak gezien als mannenwerk.
+                Gelukkig begint dit beeld te veranderen, en wordt het steeds duidelijker dat vrouwen altijd
+                al een cruciale rol gespeeld binnen de computerwetenschap. Ada Lovelace is hier een voorbeeld van.
+                Zij was een pioneer op het gebied van informatica en wiskunde.
             </p>
             <button class="readmore-button-text-introduction-paragraph">
-                Lees hier verder over de impact van Ada Lovelace!
+                Lees hier verder over Ada Lovelace!
             </button>
         </div>
         <div class="image-introduction-container">
-            <img class="image-general-styling image-introduction" src="/resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png" alt="this is a placeholder image">
+            <img
+                class="image-general-styling image-introduction"
+                src="/resources/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+                alt="black and white portrait picture of Ada Lovelace">
         </div>
     </div>
 </main>

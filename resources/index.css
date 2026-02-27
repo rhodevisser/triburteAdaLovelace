@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    border: 0.125rem solid #fd006e;
+    border: 0.125rem solid #FF66A8;
     cursor: pointer;
     
 }
@@ -194,9 +194,11 @@ button:active {
 }
 
 .readmore-button-text-introduction-paragraph {
+    margin-top: 1.25rem;
     align-self: flex-start;
+    padding: 0.375rem 0.938rem;
+    border-radius: 0.625rem;
 }
-
 
 
 .child-to-pioneer-container {
