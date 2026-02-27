@@ -12,7 +12,7 @@
                     </a>
                 </li>
                 <li >
-                    <a href="/biografie">
+                    <a href="biografie">
                     Biografie
                     </a>
                 </li>
