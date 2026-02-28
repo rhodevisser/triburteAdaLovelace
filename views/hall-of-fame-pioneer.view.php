@@ -17,7 +17,9 @@
                 Zij was een pioneer op het gebied van informatica en wiskunde.
             </p>
             <button class="readmore-button-text-introduction-paragraph">
-                Lees hier verder over Ada Lovelace!
+                <a href="hall-of-fame/biografie">
+                    Lees hier verder over Ada Lovelace!
+                </a>
             </button>
         </div>
         <div class="image-introduction-container">
