@@ -1,5 +1,5 @@
 <?php
 
-$heading = 'ADA LOVELACE';
-
-require "views/hall-of-fame-pioneer.view.php";
+view("hall-of-fame-pioneer.view.php", [
+    'heading' => 'ADA LOVELACE'
+]);

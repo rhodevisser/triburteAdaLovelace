@@ -1,8 +1,8 @@
-<?php require('partials/head.php') ?>
+<?php require base_path('views/partials/head.php') ?>
 
-<?php require('partials/nav.php') ?>
+<?php require base_path('views/partials/nav.php') ?>
 
-<?php require('partials/header.php') ?>
+<?php require base_path('views/partials/header.php') ?>
 
 <main>
     <div class="introduction-container">
@@ -24,9 +24,9 @@
 
     <div class="child-to-pioneer-container">
 
-            <h2 class="child-to-pioneer-title">
-                Van kind tot pionier
-            </h2>
+        <h2 class="child-to-pioneer-title">
+            Van kind tot pionier
+        </h2>
 
         <div class="child-to-pioneer-illustration-container">
 
@@ -35,7 +35,7 @@
                     <img class="image-child-to-pioneer" src="resources/images/Miniature_of_Ada_Byron.jpg" alt="Portrait of Ada Lovelace when she was four years old">
                 </figure>
                 <figcaption class="figcaption-child-to-pioneer">
-                        Ada Byron, vier jaar oud, naar een miniatuur in een medaillon dat door haar tante aan Lord Byron werd gestuurd.
+                    Ada Byron, vier jaar oud, naar een miniatuur in een medaillon dat door haar tante aan Lord Byron werd gestuurd.
                 </figcaption>
             </div>
 
@@ -44,16 +44,16 @@
                     <img class="image-child-to-pioneer" src="resources/images/Ada_Lovelace_child_portrait_Somerville_College.jpg" alt="Portrait of Ada Lovelace when she was seven years old">
                 </figure>
                 <figcaption class="figcaption-child-to-pioneer">
-                        Portret van zevenjarige Ada Lovelace, door Alfred d’Orsay (1822), Somerville College, Oxford.
+                    Portret van zevenjarige Ada Lovelace, door Alfred d’Orsay (1822), Somerville College, Oxford.
                 </figcaption>
-            </div> 
+            </div>
 
             <div class="child-to-pioneer-figure-container">
                 <figure class="figure-child-to-pioneer">
                     <img class="image-child-to-pioneer" src="resources/images/Ada_Byron_aged_seventeen_(1832).jpg" alt="Portrait of Ada Lovelace when she was seventeen years old">
                 </figure>
                 <figcaption class="figcaption-child-to-pioneer">
-                        Ada Byron, zeventien jaar oud, 1832, afkomstig uit de Lovelace-Byron Collectie.
+                    Ada Byron, zeventien jaar oud, 1832, afkomstig uit de Lovelace-Byron Collectie.
                 </figcaption>
             </div>
 
@@ -62,27 +62,27 @@
                     <img class="image-child-to-pioneer" src="resources/images/Ada_Lovelace_portrait.jpg" alt="Portrait of Ada Lovelace">
                 </figure>
                 <figcaption class="figcaption-child-to-pioneer">
-                        Aquarelportret van Ada Lovelace, gravin van Lovelace, ca. 1840, mogelijk door Alfred Edward Chalon.
+                    Aquarelportret van Ada Lovelace, gravin van Lovelace, ca. 1840, mogelijk door Alfred Edward Chalon.
                 </figcaption>
             </div>
 
         </div>
-        
+
     </div>
 
     <div class="quote-container">
         <div class="quote-name-box">
-                <h2 class="quote-text">
-                    "Er wordt een nieuwe, uitgebreide en krachtige taal ontwikkeld voor toekomstig 
-                    analytisch gebruik, waarmee men haar waarheden kan hanteren zodat deze sneller 
-                    en nauwkeuriger praktisch toepasbaar worden voor het welzijn van de mensheid, 
-                    dan de middelen die tot nu toe tot onze beschikking stonden mogelijk maakten."
-                </h2>
+            <h2 class="quote-text">
+                "Er wordt een nieuwe, uitgebreide en krachtige taal ontwikkeld voor toekomstig
+                analytisch gebruik, waarmee men haar waarheden kan hanteren zodat deze sneller
+                en nauwkeuriger praktisch toepasbaar worden voor het welzijn van de mensheid,
+                dan de middelen die tot nu toe tot onze beschikking stonden mogelijk maakten."
+            </h2>
             <div class="name-box">
                 <p class="paragraph-styling">
                     - Ada Lovelace
                 </p>
-            </div> 
+            </div>
         </div>
     </div>
 
@@ -104,6 +104,4 @@
     </div>
 </main>
 
-<?php require('partials/footer.php') ?>
-
-
+<?php require base_path('views/partials/footer.php') ?>

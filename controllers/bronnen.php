@@ -5,14 +5,13 @@
 
 // QUERY THE MYSQL TABLE FROM THIS PHP (SELECT * ...)
 
-$config = require('config.php');
+$config = require base_path('config.php');
 $db = new Database($config['database']);
-
-$heading = 'BRONNEN'; 
 
 $resources = $db->query('select * from resources where id = 1')->get();
 
 
-require "views/bronnen.view.php";
-
-
+view("bronnen.view.php", [
+    'heading' => 'BRONNEN',
+    'resources' => $resources
+]);

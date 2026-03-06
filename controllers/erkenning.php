@@ -1,5 +1,5 @@
 <?php
 
-$heading = 'ERKENNING'; 
-
-require "views/erkenning.view.php";
+view("erkenning.view.php", [
+    'heading' => 'ERKENNING'
+]);

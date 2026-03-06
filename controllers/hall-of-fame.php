@@ -1,6 +1,9 @@
 <?php
 
-$heading = 'HALL OF FAME'; 
+// Maak een tabel innovators.
 
 
-require "views/hall-of-fame.view.php";
+
+view("hall-of-fame.view.php", [
+    'heading' => "HALL OF FAME"
+]);

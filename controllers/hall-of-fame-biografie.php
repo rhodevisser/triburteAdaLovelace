@@ -1,5 +1,5 @@
 <?php
 
-$heading = 'BIOGRAFIE';
-
-require "views/hall-of-fame-biografie.view.php";
+view("hall-of-fame-biografie.view.php", [
+    'heading' => 'BIOGRAFIE'
+]);
