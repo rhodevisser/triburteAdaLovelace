@@ -5,26 +5,6 @@
 <?php require('partials/header.php') ?>
 
 <main>
-    <div class="text-sm font-medium text-center text-body border-b border-default">
-        <ul class="flex flex-wrap -mb-px">
-            <li class="me-2">
-                <a href="#" class="inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand">Profile</a>
-            </li>
-            <li class="me-2">
-                <a href="#" class="inline-block p-4 text-fg-brand border-b border-brand rounded-t-base active" aria-current="page">Dashboard</a>
-            </li>
-            <li class="me-2">
-                <a href="#" class="inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand">Settings</a>
-            </li>
-            <li class="me-2">
-                <a href="#" class="inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand">Contacts</a>
-            </li>
-            <li>
-                <a class="inline-block p-4 text-fg-disabled rounded-t-base cursor-not-allowed dark:text-body">Disabled</a>
-            </li>
-        </ul>
-    </div>
-
     <div class="introduction-container">
         <div class="text-biografie-container">
             <p class="paragraph-styling">
