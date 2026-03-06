@@ -16,10 +16,10 @@
                 al een cruciale rol gespeeld binnen de computerwetenschap. Ada Lovelace is hier een voorbeeld van.
                 Zij was een pioneer op het gebied van informatica en wiskunde.
             </p>
-            <button class="readmore-button-text-introduction-paragraph">
-                <a href="hall-of-fame/biografie">
-                    Lees hier verder over Ada Lovelace!
-                </a>
+            <button
+                class="readmore-button-text-introduction-paragraph"
+                onclick="location.href='hall-of-fame/biografie'">
+                Lees hier verder over Ada Lovelace!
             </button>
         </div>
         <div class="image-introduction-container">
