@@ -1,6 +1,29 @@
-Ada Lovelace — Tribute Site
+OG.irls Hall of Fame en kennisbank (Last updated: March 2026)
 
-Simple, lightweight PHP site presenting a short tribute to Ada Lovelace. Originally built as a static HTML/CSS project during The Odin Project curriculum, it has since been refactored to use PHP for modular templates, basic routing, and easier maintainability.
+** Description ** 
+
+This is a PHP website that started as a tribute page to Ada Lovelace, and I am currently building it into a website for women who are interested in tech or working in the industry. What started as a learning project, I now aim to build a central hub site for the Dutch STEM-sector. 
+
+BUT why?? Well, as a newbie to the sector, I noticed that there is a lot of information, and there are communities, sponsor initatieves (partially) active in NL, but this information is scattered. What I aim for is to bring all this information together in a 'kennisbank.
+
+What exactly do I want to build? 
+- De Kennisbank: een community-driven overzicht van alle Nederlandse initiatieven die vrouwen in de kunnen ondersteunen.
+- De Hall of Fame: Een verzameling inspirerende verhalen van vrouwen die de weg hebben vrijgemaakt—van de pioniers tot de rolmodellen van nu.
+
+** Want to join?? **
+
+This project is in full development. Please reach out if you want to think, build, design, support along!!!
+
+** Contribution workflow **
+
+- Clone the repository locally.
+- Create a new branch for your change (use a descriptive name, for example `feature/add-biography` or `fix/nav-translation`).
+- Commit your changes to that branch.
+- Open a pull request against the `main` branch so I can review the changes.
+- Alternatively, you can send me a message before making changes if you'd prefer to coordinate first.
+
+Please do not push directly to `main` — always use a branch and a PR.
+
 
 ** What you'll find here **
 
@@ -12,7 +35,7 @@ Simple, lightweight PHP site presenting a short tribute to Ada Lovelace. Origina
 
 ** Features **
 
-- Biography, sources, and recognition pages
+- Biographies, sources, and recognition pages
 - Reusable header/footer partials
 - Clean, easy-to-follow project structure for learning
 
@@ -31,18 +54,7 @@ Simple, lightweight PHP site presenting a short tribute to Ada Lovelace. Origina
 - views/ — page templates and partials (`views/partials/`)
 - resources/ — CSS and images
 
-** Personal note **
 
-This repository is my personal work-in-progress: it mostly exists to show what I'm currently building and learning. It's not necessarily intended for wide public distribution. That said, I appreciate suggestions and help.
 
-** Contribution workflow **
-
-- Clone the repository locally.
-- Create a new branch for your change (use a descriptive name, for example `feature/add-biography` or `fix/nav-translation`).
-- Commit your changes to that branch.
-- Open a pull request against the `main` branch so I can review the changes.
-- Alternatively, you can send me a message before making changes if you'd prefer to coordinate first.
-
-Please do not push directly to `main` — always use a branch and a PR.
 
 
