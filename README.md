@@ -1,12 +1,13 @@
 OG.irls Hall of Fame en kennisbank (Last updated: March 2026)
 
-** Description ** 
+** Description **
 
-This is a PHP website that started as a tribute page to Ada Lovelace, and I am currently building it into a website for women who are interested in tech or working in the industry. What started as a learning project, I now aim to build a central hub site for the Dutch STEM-sector. 
+This is a PHP website that started as a tribute page to Ada Lovelace, and I am currently building it into a website for women who are interested in tech or working in the industry. What started as a learning project, I now aim to build a central hub site for the Dutch STEM-sector.
 
 BUT why?? Well, as a newbie to the sector, I noticed that there is a lot of information, and there are communities, sponsor initatieves (partially) active in NL, but this information is scattered. What I aim for is to bring all this information together in a 'kennisbank.
 
-What exactly do I want to build? 
+What exactly do I want to build?
+
 - De Kennisbank: een community-driven overzicht van alle Nederlandse initiatieven die vrouwen in de kunnen ondersteunen.
 - De Hall of Fame: Een verzameling inspirerende verhalen van vrouwen die de weg hebben vrijgemaakt—van de pioniers tot de rolmodellen van nu.
 
@@ -23,7 +24,6 @@ This project is in full development. Please reach out if you want to think, buil
 - Alternatively, you can send me a message before making changes if you'd prefer to coordinate first.
 
 Please do not push directly to `main` — always use a branch and a PR.
-
 
 ** What you'll find here **
 
@@ -44,7 +44,6 @@ Please do not push directly to `main` — always use a branch and a PR.
 - PHP 8.0 or newer
 - A local web server (Laragon, XAMPP, or PHP built-in server)
 
-
 ** Project structure (high level) **
 
 - config.php — site configuration
@@ -53,8 +52,3 @@ Please do not push directly to `main` — always use a branch and a PR.
 - controllers/ — page controllers (biografie, bronnen, erkenning, index)
 - views/ — page templates and partials (`views/partials/`)
 - resources/ — CSS and images
-
-
-
-
-
