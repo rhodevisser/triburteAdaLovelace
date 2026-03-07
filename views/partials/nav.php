@@ -12,11 +12,6 @@
                  </a>
              </li>
              <li>
-                 <a href="erkenning">
-                     Erkenning
-                 </a>
-             </li>
-             <li>
                  <a href="bronnen">
                      Bronnen
                  </a>
