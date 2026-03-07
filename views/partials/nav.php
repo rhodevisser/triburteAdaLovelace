@@ -12,8 +12,8 @@
                  </a>
              </li>
              <li>
-                 <a href="bronnen">
-                     Bronnen
+                 <a href="kennisbank">
+                     Kennisbank
                  </a>
              </li>
              <li>
