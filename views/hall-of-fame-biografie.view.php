@@ -5,7 +5,30 @@
 <?php require('partials/header.php') ?>
 
 <main>
-    <div class="introduction-container">
+
+    <div class="biografie-sub-nav biografie-sub-nav-paragraph text-sm">
+        <div class="biografie-sub-nav-inner">
+            <li>
+                <a href="/hall-of-fame/biografie#biografie-sectie">
+                    Biografie
+                </a>
+            </li>
+            <li>
+                <a href="/hall-of-fame/biografie#impact-sectie">
+                    Impact
+                </a>
+            </li>
+            <li>
+                <a href="/hall-of-fame/biografie#bronnen-sectie">
+                    Bronnen
+                </a>
+            </li>
+        </div>
+    </div>
+
+    <div
+        id="biografie-sectie"
+        class="introduction-container">
         <div class="text-biografie-container">
             <p class="paragraph-styling">
                 <a class="biografie-link-styling" target="_blank" aria-label="Lees meer over Ada Lovelace" title="Lees meer over Ada Lovelace" ​ href="https://en.wikipedia.org/wiki/Ada_Lovelace">

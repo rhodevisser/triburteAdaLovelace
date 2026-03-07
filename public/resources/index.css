@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import "flowbite/src/themes/default";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color:whitesmoke;
@@ -22,6 +26,9 @@ nav, header, footer, .introduction-container {
     padding-left: 6.25rem;
     color: rgb(229 166 210 / 62%);
     margin: 0;
+    position: sticky;
+    top: 0;           
+    z-index: 1000;  
 }
 
 .header-two-styling {
@@ -313,4 +320,24 @@ footer {
 .hall-of-fame-container {
     margin-left: auto;
     margin-right: auto;
+}
+
+.biografie-sub-nav {
+    position: sticky;
+    top: 0;           
+    z-index: 100;  
+    background-color: #140a13;
+    padding: 3.5rem 0rem 1rem 0rem;
+}
+
+.biografie-sub-nav-inner {
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.biografie-sub-nav-paragraph {
+    color: whitesmoke;
+    list-style: none;
 }
