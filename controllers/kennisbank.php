@@ -2,13 +2,13 @@
 
 use Core\Database;
 
-$config = require base_path('config.php');
-$db = new Database($config['database']);
+// $config = require base_path('config.php');
+// $db = new Database($config['database']);
 
-$resources = $db->query('select * from resources where id = 1')->get();
+// $resources = $db->query('select * from resources where id = 1')->get();
 
 
 view("kennisbank.view.php", [
     'heading' => 'KENNISBANK',
-    'resources' => $resources
+    // 'resources' => $resources
 ]);
