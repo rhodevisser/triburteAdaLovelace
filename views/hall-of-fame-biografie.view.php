@@ -154,6 +154,21 @@
         </div>
     </div>
 
+    <div class="introduction-container">
+        <div
+            id="bronnen-sectie"
+            class="text-introduction-container">
+            <p class="paragraph-styling">
+                <?php foreach ($resources as $resource) : ?>
+                    <li>
+                        <?= $resource['title_id'] ?>
+                    </li>
+
+                <?php endforeach ?>
+            </p>
+        </div>
+    </div>
+
 </main>
 
 <?php require('partials/footer.php') ?>
