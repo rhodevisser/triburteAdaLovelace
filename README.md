@@ -1,3 +1,48 @@
+# Vrouwen in STEM Nederland 👩‍💻✨
+**Hall of Fame & Kennisbank** *(Laatste update: Maart 2026)*
+
+## 🌟 Over dit project
+Wat begon als een eerbetoon aan Ada Lovelace, groeit nu uit tot hét centrale platform voor vrouwen in de Nederlandse STEM-sector.
+
+**Waarom?** Als nieuwkomer in de sector merkte ik dat er ontzettend veel waardevolle informatie, communities en initiatieven zijn, maar dat deze versnipperd zijn. Dit project is bedoeld om alles samen te brengen op één plek:
+- **De Kennisbank:** Een community-driven overzicht van alle Nederlandse (of in Nederland actieve) initiatieven die gericht zijn op vrouwen in tech. 
+- **De Hall of Fame:** Inspirerende verhalen van pioniers tot de rolmodellen van nu.
+
+## 🚀 Techniek
+Dit project is gebouwd met **Laravel 11**, wat zorgt voor een veilige en schaalbare basis.
+- **Framework:** Laravel (PHP 8.2+)
+- **Frontend:** Tailwind CSS via Vite
+- **Templating:** Blade (Laravel's krachtige template engine)
+
+## 🛠️ Installatie (Lokaal)
+Wil je meehelpen bouwen? Volg deze stappen om het project op je eigen computer te draaien:
+
+1. **Clone de repo:** `git clone [JOUW-REPO-URL]`
+2. **Installeer PHP dependencies:** `composer install`
+3. **Installeer Frontend dependencies:** `npm install`
+4. **Maak je omgevingsbestand:** `cp .env.example .env` en genereer een key: `php artisan key:generate`
+5. **Start de servers:**
+    - Voor de PHP server: `php artisan serve` (of gebruik Laravel Herd)
+    - Voor de CSS/JS (Vite): `npm run dev`
+
+## 🤝 Bijdragen (Contribution Workflow)
+Ik sta erg open voor hulp! Of je nu wilt ontwerpen, code wilt schrijven of content wilt toevoegen:
+- Maak een nieuwe branch aan voor je wijziging (bijv. `feature/nieuwe-biografie`).
+- Commit je wijzigingen.
+- Open een **Pull Request** naar de `main` branch.
+- **Let op:** Push liever niet direct naar `main`, zodat we de code netjes kunnen reviewen.
+
+## 📂 Projectstructuur (Laravel)
+- `app/Http/Controllers/` — De logica achter de pagina's.
+- `resources/views/` — Alle HTML/Blade templates.
+- `resources/css/` — Hier vind je de `index.css` voor styling.
+- `routes/web.php` — Hier worden de URL's gedefinieerd.
+
+---
+*Vragen of ideeën? Stuur me gerust een berichtje! Samen bouwen we aan een inclusievere tech-sector in Nederland.*
+
+---------------------------------------------
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
