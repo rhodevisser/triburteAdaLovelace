@@ -39,7 +39,11 @@ Ik sta erg open voor hulp! Of je nu wilt ontwerpen, code wilt schrijven of conte
 - `routes/web.php` — Hier worden de URL's gedefinieerd.
 
 ---
-*Vragen of ideeën? Stuur me gerust een berichtje! Samen bouwen we aan een inclusievere tech-sector in Nederland.*
+*Vragen of ideeën? Stuur me gerust een berichtje! *
+
+https://www.linkedin.com/in/rhod%C3%A9-v-60641287/
+
+
 
 ---------------------------------------------
 
