@@ -1,5 +1,124 @@
 <x-layout>
-    <h2 class="text-introduction-title">
-        Hier moet de hall of fame komen
-    </h2>
+    <div class="py-24 sm:py-32 hall-of-fame-container">
+        <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
+
+            <ul role="list"
+                class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                             alt=""
+                             class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                        <div>
+                            <h3 class="header-two-styling">
+                                Leslie Alexander
+                            </h3>
+                            <p class="paragraph-styling">
+                                Co-Founder / CEO
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="hall-of-fame/pioneer">
+                        <div class="flex items-center gap-x-6">
+                            <img src="/images/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+                                 alt=""
+                                 class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                            <div>
+                                <h3 class="header-two-styling">
+                                    Ada Lovelace
+                                </h3>
+                                <p class="paragraph-styling">
+                                    First Computer Programmer
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img src="/images/paulineVos.jpg"
+                             alt=""
+                             class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                        <div>
+                            <h3 class="header-two-styling">
+                                Pauline Vos
+                            </h3>
+                            <p class="paragraph-styling">
+                                Software Engineer @ MongoDB and Conference Speaker
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                             alt=""
+                             class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                        <div>
+                            <h3 class="header-two-styling">
+                                Lindsay Walton
+                            </h3>
+                            <p class="paragraph-styling">
+                                Front-end Developer
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                             alt=""
+                             class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                        <div>
+                            <h3 class="header-two-styling">
+                                Courtney Henry
+                            </h3>
+                            <p class="paragraph-styling">
+                                Designer
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img src="/images/GraceHopper.jpg"
+                             alt=""
+                             class="size-16 rounded-full outline-1 -outline-offset-1 outline-white/10" />
+                        <div>
+                            <h3 class="header-two-styling">
+                                Grace Hopper
+                            </h3>
+                            <p class="paragraph-styling">
+                                Computer Scientist, Mathematician, and US Navy Rear Admiral
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="introduction-container">
+        <div class="text-introduction-container">
+        </div>
+    </div>
+    <div class="newsletter-container">
+        <div class="newsletter-box">
+            <div class="title-paragraph-box-for-styling">
+                <h2 class="title-text-newsletter">
+                    Wil je meer weten over vrouwen in de technologie?
+                </h2>
+                <p class="paragraph-text-newsletter paragraph-styling">
+                    Schrijf je dan in voor onze nieuwsbrief en blijf op de hoogte van de laatste ontwikkelingen,
+                    evenementen en inspirerende verhalen van vrouwen in de technologie.
+                </p>
+            </div>
+            <button class="get-newsletter">
+                Meldt je hier aan voor de nieuwsbrief!
+            </button>
+        </div>
+    </div>
 </x-layout>
