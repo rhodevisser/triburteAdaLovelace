@@ -1,4 +1,6 @@
-<x-layout>
+<x-layout
+    title="Homepage"
+    heading="HOMEPAGE">
 
         <div class="introduction-container">
             <div class="text-introduction-container">

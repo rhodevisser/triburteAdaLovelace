@@ -1,4 +1,6 @@
-<x-layout>
+<x-layout
+    title="Hall of Fame"
+    heading="HALL OF FAME" >
     <div class="py-24 sm:py-32 hall-of-fame-container">
         <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
 

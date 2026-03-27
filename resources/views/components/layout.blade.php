@@ -1,10 +1,15 @@
+@props([
+    'title' => 'Vrouwen in STEM Nederland',
+    'heading' => 'Homepage'
+])
+
 <!DOCTYPE html>
 <html lang="nl">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>OG.irls — Vrouwen in Tech</title>
+        <title>{{ $title }}</title>
         <link rel="stylesheet" href={{ asset('css/index.css') }}>
         @vite(['resources/css/index.css'])
         <link href="/dist/styles.css" rel="stylesheet">
@@ -45,8 +50,7 @@
         </nav>
         <header class="header">
             <h1 class="header-text">
-{{--                    <?php //= $heading; ?><!---->--}}
-                Heading
+                {{ $heading }}
             </h1>
         </header>
         <main>
